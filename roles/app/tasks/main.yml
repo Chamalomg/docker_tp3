@@ -3,11 +3,12 @@
     name: backend
     state: started
     image: fabiensolde/mylittleproject:simple-api
+    pull: yes
     networks:
       - name: app-network
         links:
           - database
     env:
-      SPRING_DATASOURCE_USERNAME: usr
-      SPRING_DATASOURCE_PASSWORD: pwd 
-      SPRING_DATASOURCE_URL: jdbc:postgresql://database:5432/db
+      SPRING_DATASOURCE_USERNAME: "{{db_user}}"
+      SPRING_DATASOURCE_PASSWORD: "{{db_pwd}}"
+      SPRING_DATASOURCE_URL: "{{db_url}}"
