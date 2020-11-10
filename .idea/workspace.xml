@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47ee87f4-c132-4615-9346-36d8321f9adc" name="Default Changelist" comment="" />
+    <list default="true" id="47ee87f4-c132-4615-9346-36d8321f9adc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/roles/docker/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/docker/tasks/main.yml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604995926091</updated>
       <workItem from="1604995927638" duration="255000" />
-      <workItem from="1604996228328" duration="9928000" />
+      <workItem from="1604996228328" duration="10399000" />
     </task>
     <task id="LOCAL-00001" summary="change">
       <created>1605012595216</created>
@@ -52,7 +54,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605012595217</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="change">
+      <created>1605012769076</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605012769076</updated>
+    </task>
+    <task id="LOCAL-00003" summary="change">
+      <created>1605012821397</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605012821397</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

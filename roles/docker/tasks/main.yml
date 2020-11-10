@@ -36,23 +36,12 @@
     state: removed
   tags: docker
 
-
-- name: Install Pypi
-  easy_install:
-    name: pip
-    state: latest
-  tags: docker
-
 - name: Install docker-py
   pip:
     name: docker-py
     state: uninstall
   tags: docker
 
-
-- name: Make sure Docker is running
-  service: name=docker state=started
-  tags: docker
 
 - name: Install epl-release
   yum:
