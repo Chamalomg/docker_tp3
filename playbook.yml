@@ -4,7 +4,7 @@
 
   roles:
     # Install Docker
-    - docker
+    #- docker
     - network
     - proxy
     - database
