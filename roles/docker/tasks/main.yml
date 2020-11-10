@@ -39,7 +39,7 @@
 - name: Install Pypi
   easy_install:
     name: pip
-    state: removed
+    state: latest
   tags: docker
 
 - name: Install docker-py
