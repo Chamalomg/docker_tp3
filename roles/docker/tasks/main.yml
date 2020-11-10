@@ -25,7 +25,7 @@
 - name: Install Docker
   yum:
     name: docker-ce
-    state: present
+    state: latest
 
 - name: Make sure Docker is running
   service: name=docker state=started
