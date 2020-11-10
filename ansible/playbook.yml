@@ -6,7 +6,8 @@
     # Install Docker
     #- docker
     - network
+    - database
     - app
     - proxy
-    - database
+
 

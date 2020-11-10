@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47ee87f4-c132-4615-9346-36d8321f9adc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/roles/app/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/app/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/app/tasks/main.yml.save" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/app/tasks/main.yml.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/database/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/database/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/docker/main.yml.save" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/docker/main.yml.save" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/docker/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/docker/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/network/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/network/tasks/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles/proxy/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/roles/proxy/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ansible/playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ansible/playbook.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +18,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Documents\Programmes\docker\TP3\ansible" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
