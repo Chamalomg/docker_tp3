@@ -1,3 +1,4 @@
+---
 - name: Install yum-utils
   yum:
     name: yum-utils
@@ -23,7 +24,7 @@
 - name: Install Docker
   yum:
     name: docker-ce
-    state: latest
+    state: present
 
 - name: Make sure Docker is running
   service: name=docker state=started
@@ -35,11 +36,11 @@
     state: latest
 
 - name: Install pip
-  yum: 
+  yum:
     name: python-pip
     state: latest
 
-- name: Pip docker
-  pip: 
+- name: Pip install Docker
+  pip:
     name: docker
     state: latest
