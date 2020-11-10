@@ -39,7 +39,7 @@
 - name: Install docker-py
   pip:
     name: docker-py
-    state: uninstall
+    state: absent
   tags: docker
 
 
@@ -56,4 +56,4 @@
 - name: Pip install Docker
   pip:
     name: docker
-    state: uninstall
+    state: absent
