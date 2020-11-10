@@ -2,7 +2,9 @@
   docker_container: 
     name: reverse_proxy
     image: fabiensolde/mylittleproject:httpd
+    pull: yes
+    state: started
     ports:
-      - 80:80
+      - "80:80"
     networks:
       - name: app-network
