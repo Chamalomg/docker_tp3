@@ -66,4 +66,4 @@
 - name: Pip install Docker
   pip:
     name: docker
-    state: removed
+    state: uninstall
