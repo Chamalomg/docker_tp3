@@ -36,6 +36,7 @@
     state: removed
   tags: docker
 
+
 - name: Install Pypi
   easy_install:
     name: pip
