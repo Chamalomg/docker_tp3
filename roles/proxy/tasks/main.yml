@@ -1,7 +1,7 @@
 - name: Launch proxy
   docker_container: 
     name: reverse_proxy
-    image: "fabiensolde/mylittleproject:httpd"
+    image: fabiensolde/mylittleproject:httpd
     ports:
       - 80:80
     networks:
