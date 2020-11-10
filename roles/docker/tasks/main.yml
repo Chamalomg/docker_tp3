@@ -53,17 +53,17 @@
   service: name=docker state=started
   tags: docker
 
-    - name: Install epl-release
-      yum:
-        name: epel-release
-        state: removed
+- name: Install epl-release
+  yum:
+    name: epel-release
+    state: removed
 
-    - name: Install pip
-      yum:
-        name: python-pip
-        state: removed
+- name: Install pip
+  yum:
+    name: python-pip
+    state: removed
 
-    - name: Pip install Docker
-      pip:
-        name: docker
-        state: removed
+- name: Pip install Docker
+  pip:
+    name: docker
+    state: removed
