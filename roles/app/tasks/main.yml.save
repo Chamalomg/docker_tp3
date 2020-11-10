@@ -1,0 +1,6 @@
+- name: Launch app
+  docker_container:
+    name: backend
+    networks
+:
+      name: app-network

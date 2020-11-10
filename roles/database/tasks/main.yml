@@ -1,0 +1,11 @@
+- name: create database
+  docker_container:
+    name: database
+    image: fabiensolde/mylittleproject:database
+    state: started
+    networks:
+      - name: app-network
+    env:
+      POSTGRES_PASSWORD=pwd
+      POSTGRES_USER=usr
+      POSTGRES_DB=db
