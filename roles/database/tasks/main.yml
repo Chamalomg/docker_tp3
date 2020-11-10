@@ -2,7 +2,6 @@
   docker_container:
     name: database
     image: fabiensolde/mylittleproject:database
-    state: started
     networks:
       - name: app-network
     env:

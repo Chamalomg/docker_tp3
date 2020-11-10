@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47ee87f4-c132-4615-9346-36d8321f9adc" name="Default Changelist" comment="" />
+    <list default="true" id="47ee87f4-c132-4615-9346-36d8321f9adc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/app/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/app/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/database/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/database/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/roles/proxy/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/roles/proxy/tasks/main.yml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604995926091</updated>
       <workItem from="1604995927638" duration="255000" />
-      <workItem from="1604996228328" duration="1822000" />
+      <workItem from="1604996228328" duration="2479000" />
     </task>
     <servers />
   </component>

@@ -6,8 +6,6 @@
     pull: yes
     networks:
       - name: app-network
-        links:
-          - database
     env:
       SPRING_DATASOURCE_USERNAME: "{{db_user}}"
       SPRING_DATASOURCE_PASSWORD: "{{db_pwd}}"
